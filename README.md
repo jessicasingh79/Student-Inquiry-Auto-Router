@@ -7,3 +7,9 @@ _Solution_: n8n workflow that receives form data via webhook, classifies by inqu
 _Impact_: Eliminates manual routing, provides instant acknowledgment to students, reduces first response time from 4-6 hours to < 1 minute.
 
 **Tech Stack**: n8n, Airtable, Gmail API, Webhook
+
+## Setup
+1. Import `student-inquiry-router.json` into n8n
+2. Configure Airtable credential with tables: Financial Aid, Admissions, IT Support, Manual Review
+3. Configure Gmail credential
+4. Test with webhook POST to `/student-inquiry`
